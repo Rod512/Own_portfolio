@@ -11,9 +11,10 @@ export default {
     extend: {
       colors:{
         "primary": "#5E3BEE",
-        "bgshade": "F5FCFF",
+        "shade": "#EEF4FA",
         "dribble": "#E62872",
-        "body": "#1C1E53"
+        "body": "#1C1E53",
+        "headingcolor": "#282938",
       }
     },
   },
