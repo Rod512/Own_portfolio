@@ -5,12 +5,15 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily:{
+      'roboto': "'Roboto', 'sans-serif'"
+    },
     extend: {
       colors:{
         "primary": "#5E3BEE",
-        "backgroundshade": "F5FCFF",
+        "bgshade": "F5FCFF",
         "dribble": "#E62872",
-        "dody": "#1C1E53"
+        "body": "#1C1E53"
       }
     },
   },
