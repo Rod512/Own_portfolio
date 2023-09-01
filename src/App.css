@@ -10,3 +10,8 @@ body{
 .btn{
     @apply px-4 py-2 border border-primary text-primary rounded hover:bg-primary hover:text-white transition-all duration-300;
 }
+
+.skillcard:nth-child(1){
+    border-bottom: 4px solid #5E3BEE;
+
+}

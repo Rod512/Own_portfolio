@@ -2,6 +2,8 @@ import React from 'react';
 import './App.css'
 import Navbar from './components/Navbar'
 import Home from './components/Home'
+import Skill from './components/Skill'
+import About from './components/About'
 
 
 const App = () => {
@@ -9,7 +11,9 @@ const App = () => {
     <>
       <Navbar></Navbar>
       <Home></Home>
-      
+      <Skill></Skill>
+      <About></About>
+
     </>
   );
 };
