@@ -1,0 +1,27 @@
+[
+    {
+        "id":1,
+        "name": "Social Media",
+        "description": "This is a simple social media web application using react.js and metarial ui.",
+        "image": "src/assets/project 1.png",
+        "link": "https://github.com/Rod512/Social_site"
+
+    },
+
+    {
+        "id":1,
+        "name": "Gym website",
+        "description": "This is a website for gym using react.js with tailwind css.",
+        "image": "src/assets/project 2.png",
+        "link": "https://github.com/Rod512/fitness_club"
+
+    },
+
+    {
+        "id":1,
+        "name": "Eccomerce",
+        "description": "This is an eccomerce website using react.js with tailwind css and fakestore api",
+        "image": "src/assets/project 3.png",
+        "link": "https://github.com/Rod512/twi-eccomerce"
+    }
+]

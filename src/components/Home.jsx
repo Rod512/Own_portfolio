@@ -3,7 +3,7 @@ import banner from '../assets/banner.png'
 const Home = () => {
     return (
         <div className='mt-20 bg-shade '>
-            <div className='lg:px-4 px-4 flex flex-col md:flex-row-reverse items-center justify-between py-24 gap-5'>
+            <div className='lg:px-4 px-4 flex flex-col md:flex-row-reverse items-center justify-between py-24 gap-5' id='home'>
 
                 <div className='md:w-1/2 w-full'>
                     <img src={banner} className='w-full' alt="" />

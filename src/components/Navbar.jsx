@@ -1,6 +1,7 @@
 import React, { Fragment, useEffect, useState } from 'react';
-import logo from '../assets/Logo.png'
+import logo from '../assets/logo.png'
 import {HiMenu} from 'react-icons/hi'
+import { Link } from 'react-scroll';
 
 const Navbar = () => {
     const [isOpen,setIsOpen] = useState(false)
@@ -26,23 +27,21 @@ const Navbar = () => {
                     <div className='flex item-center justify-between'>
                         {/* logo */}
                         <div className='cursor-pointer'>
-                            <img className='h-10' src={logo} alt="" />
+                            <img className='h-12' src={logo} alt="" />
                         </div>
                         {/* menu item */}
                         <div className='lg:flex items-center gap-3 hidden text-body text-lg'>
-                            <a href="/" className='block py-4 px-4 cursor-pointer text-primary hover:text-gray-400'>Home</a>
+                            <Link to='home' spy={true} activeClass='active' smooth={true} offset={-100} className='block py-4 px-4 cursor-pointer text-primary hover:text-gray-400'>Home</Link>
 
-                            <a href="/" className='block py-4 px-4 cursor-pointer hover:text-gray-400'>Skills</a>
+                            <Link to='skill' spy={true} activeClass='active' smooth={true} offset={-100} className='block py-4 px-4 cursor-pointer hover:text-gray-400'>Skills</Link>
 
-                            <a href="/" className='block py-4 px-4 cursor-pointer hover:text-gray-400'>About-me</a>
+                            <Link to='about' spy={true} activeClass='active' smooth={true} offset={-100} className='block py-4 px-4 cursor-pointer hover:text-gray-400'>About-me</Link>
 
-                            <a href="/" className='block py-4 px-4 cursor-pointer hover:text-gray-400'>Portfolio</a>
-
-                            <a href="/" className='block py-4 px-4 cursor-pointer hover:text-gray-400'>Testimonials</a>
+                            <Link to='project' spy={true} activeClass='active' smooth={true} offset={-100} className='block py-4 px-4 cursor-pointer hover:text-gray-400'>Projects</Link>
                         </div>
                         {/* contact me button */}
                         <div className='lg:block hidden'>
-                            <button className='btn'>Contact Me</button>
+                            <button className='btn'><Link to='contact' spy={true} activeClass='active' smooth={true} offset={-100}>Contact</Link></button>
                         </div>
                         {/* mobile menu btn for mobile */}
                        <button onClick={toggleMenu} className='lg:hidden text-body text-3xl'>
