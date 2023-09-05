@@ -1,5 +1,5 @@
 import React, { Fragment, useEffect, useState } from 'react';
-import Logo from '../assets/logo.png'
+
 import {HiMenu} from 'react-icons/hi'
 import { Link } from 'react-scroll';
 
@@ -27,7 +27,7 @@ const Navbar = () => {
                     <div className='flex item-center justify-between'>
                         {/* logo */}
                         <div className='cursor-pointer'>
-                            <img className='h-12' src={Logo} alt="" />
+                            <img className='h-12' src='https://github-production-user-asset-6210df.s3.amazonaws.com/88203053/265802363-1445eff9-0486-49d7-a0ea-177aa00d62f9.png' alt="" />
                         </div>
                         {/* menu item */}
                         <div className='lg:flex items-center gap-3 hidden text-body text-lg'>
