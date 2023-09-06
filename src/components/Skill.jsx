@@ -1,13 +1,13 @@
 import React, { Fragment } from 'react';
 
 const myskills =[
-    {id:1, name:'Strategy & Direction', deaspriction: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.', image:'src/assets/exlogo1.png'},
+    {id:1, name:'Strategy & Direction', deaspriction: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.', image:'https://github.com/Rod512/Own_portfolio/assets/88203053/8258811d-a06d-4e72-8829-f06060cb1428'},
 
-    {id:2, name:'Team Work', deaspriction: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.', image:'src/assets/exlogo2.png'},
+    {id:2, name:'Team Work', deaspriction: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.', image:'https://github.com/Rod512/Own_portfolio/assets/88203053/066e4f6d-d4e3-413c-8549-2000defd6340'},
 
-    {id:3, name:'Comunication', deaspriction: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.', image:'src/assets/exlogo3.png'},
+    {id:3, name:'Comunication', deaspriction: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.', image:'https://github.com/Rod512/Own_portfolio/assets/88203053/0e927905-7de4-47a7-a793-6d3317093d0b'},
 
-    {id:4, name:'Coding', deaspriction: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.', image:'src/assets/exlogo4.png'},
+    {id:4, name:'Coding', deaspriction: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.', image:'https://github.com/Rod512/Own_portfolio/assets/88203053/33de3401-e91b-498d-81a6-a444dfafa770'},
 ]
 
 const Skill = () => {
